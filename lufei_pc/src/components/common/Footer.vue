@@ -41,13 +41,11 @@
     background: #25292e;
     color: #fff;
   }
-
   .footer ul {
     margin: 0 auto 16px;
     padding-top: 38px;
     width: 810px;
   }
-
   .footer ul li span a {
     float: left;
     width: 112px;
@@ -56,18 +54,15 @@
     font-size: 14px;
     color: white;
   }
-
   .footer ul::after {
     content: "";
     display: block;
     clear: both;
   }
-
   .footer p {
     text-align: center;
     font-size: 12px;
   }
-
   .header .nav li {
     float: left;
     height: 80px;
@@ -78,4 +73,3 @@
     cursor: pointer;
   }
 </style>
-

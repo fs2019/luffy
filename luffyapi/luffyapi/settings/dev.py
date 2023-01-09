@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'home', # 要 import home 否则报错
+    # 'user',
 ]
 
 MIDDLEWARE = [
@@ -191,3 +192,5 @@ REST_FRAMEWORK={
 
 CORS_ORIGIN_WHITELIST=('http://www.luffycity.cn:8080','http://127.0.0.1:8080','http://localhost:8080')
 CORS_ALLOW_CREDENTIALS=False
+
+# AUTH_USER_MODEL='user.User' # 指定用户模型不再使用默认
