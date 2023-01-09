@@ -218,3 +218,36 @@ The file will have its original line endings in your working directory
 (st10_django4) PS C:\Users\Feng\...\Scripts\s05_luffy> git push -u origin dev:dev
     Everything up-to-date
     Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+
+(st10_django4) PS C:\Users\...\s05_luffy> git add .
+(st10_django4) PS C:\Users\...\s05_luffy> git commit -m '导航菜单后台'
+    [dev f3d6a68] 导航菜单后台
+ 25 files changed, 675 insertions(+), 39 deletions(-)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/admin.cpython-311.pyc (82%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/models.cpython-311.pyc (95%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/serializers.cpython-311.pyc (85%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/urls.cpython-311.pyc (85%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/views.cpython-311.pyc (80%)
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/0003_alter_banner_image_url_alter_banner_link.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/0004_nav_banner_created_time_banner_updated_time.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/
+    0003_alter_banner_image_url_alter_banner_link.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/
+    0004_nav_banner_created_time_banner_updated_time.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/utils/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/utils/__pycache__/models.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/utils/models.py
+ create mode 100644 za_git.txt
+(st10_django4) PS C:\Users\...\s05_luffy> git push -u origin dev:dev
+    Enumerating objects: 70, done.
+    Counting objects: 100% (70/70), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (42/42), done.
+    Writing objects: 100% (43/43), 20.76 KiB | 4.15 MiB/s, done.
+    Total 43 (delta 15), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (15/15), completed with 15 local objects.
+    To https://github.com/fs2019/luffy.git
+       bda38a2..f3d6a68  dev -> dev
+    Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+
+

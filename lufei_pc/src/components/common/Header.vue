@@ -47,7 +47,6 @@
             <router-link to="/user/register">立即注册</router-link>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -67,8 +66,7 @@
       this.get_nav();
     },
     methods:{
-      check_user_login(){
-        // 获取用户的登录状态
+      check_user_login(){ // 获取用户的登录状态
         this.token = sessionStorage.user_token || localStorage.user_token;
         return this.token;
       },
@@ -79,8 +77,7 @@
           console.log(error.response);
         })
       },
-      logoutHander(){
-        // 退出登录
+      logoutHander(){ // 退出登录
         localStorage.removeItem("user_token");
         localStorage.removeItem("user_id");
         localStorage.removeItem("user_name");

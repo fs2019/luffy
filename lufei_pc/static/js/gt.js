@@ -346,9 +346,6 @@ window.initGeetest = function (userConfig, callback) {
             callbacks[type].push(init);
         }
     });
-
 };
 
-
 })(window);
-
