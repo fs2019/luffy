@@ -356,3 +356,4 @@ git 练习：
 (st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git init
 Initialized empty Git repository in C:/Users/Feng/FengShuang/study/pythonItem/st10_django4/Scripts/s05_luffy/.git/
 
+gitigonre
