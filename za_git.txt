@@ -1,0 +1,253 @@
+git 练习：
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git init
+Initialized empty Git repository in C:/Users/Feng/FengShuang/study/pythonItem/st10_django4/Scripts/s05_luffy/.git/
+
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git add .
+warning: LF will be replaced by CRLF in lufei_pc/.babelrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/.editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/.postcssrc.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/build.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/check-versions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/utils.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/vue-loader.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/webpack.base.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/webpack.dev.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/build/webpack.prod.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/config/dev.env.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/config/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/config/prod.env.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/App.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/components/HelloWorld.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/components/Home.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/components/common/Banner.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/components/common/Header.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/components/exapme.vue.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/router/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/src/settings.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in lufei_pc/static/css/reset.css.
+The file will have its original line endings in your working directory
+
+(st10_django4) PS C:\Users\Feng\...\Scripts\s05_luffy> git commit -m 'first commit'
+    [master (root-commit) bda38a2] first commit
+ 104 files changed, 29890 insertions(+)
+ create mode 100644 lufei_pc/.babelrc
+ create mode 100644 lufei_pc/.editorconfig
+ create mode 100644 lufei_pc/.gitignore
+ create mode 100644 lufei_pc/.postcssrc.js
+ create mode 100644 lufei_pc/README.md
+ create mode 100644 lufei_pc/build/build.js
+ create mode 100644 lufei_pc/build/check-versions.js
+ create mode 100644 lufei_pc/build/logo.png
+ create mode 100644 lufei_pc/build/utils.js
+ create mode 100644 lufei_pc/build/vue-loader.conf.js
+ create mode 100644 lufei_pc/build/webpack.base.conf.js
+ create mode 100644 lufei_pc/build/webpack.dev.conf.js
+ create mode 100644 lufei_pc/build/webpack.prod.conf.js
+ create mode 100644 lufei_pc/config/dev.env.js
+ create mode 100644 lufei_pc/config/index.js
+ create mode 100644 lufei_pc/config/prod.env.js
+ create mode 100644 lufei_pc/index.html
+ create mode 100644 lufei_pc/package-lock.json
+ create mode 100644 lufei_pc/package.json
+ create mode 100644 lufei_pc/src/App.vue
+ create mode 100644 lufei_pc/src/assets/logo.png
+ create mode 100644 lufei_pc/src/components/HelloWorld.vue
+ create mode 100644 lufei_pc/src/components/Home.vue
+ create mode 100644 lufei_pc/src/components/common/Banner.vue
+ create mode 100644 lufei_pc/src/components/common/CartItem.vue
+ create mode 100644 lufei_pc/src/components/common/Footer.vue
+ create mode 100644 lufei_pc/src/components/common/Header.vue
+ create mode 100644 lufei_pc/src/components/common/Player.vue
+ create mode 100644 lufei_pc/src/components/exapme.vue
+ create mode 100644 lufei_pc/src/main.js
+ create mode 100644 lufei_pc/src/router/index.js
+ create mode 100644 lufei_pc/src/settings.js
+ create mode 100644 lufei_pc/static/.gitkeep
+ create mode 100644 lufei_pc/static/css/reset.css
+ create mode 100644 lufei_pc/static/image/12.png
+ create mode 100644 lufei_pc/static/image/Loginbg.3377d0c.jpg
+ create mode 100644 lufei_pc/static/image/Logotitle.1ba5466.png
+ create mode 100644 lufei_pc/static/image/alex.jpeg
+ create mode 100644 lufei_pc/static/image/alipay.png
+ create mode 100644 lufei_pc/static/image/alipay2.png
+ create mode 100644 lufei_pc/static/image/avatar1.svg
+ create mode 100644 lufei_pc/static/image/banner1.png
+ create mode 100644 lufei_pc/static/image/banner2.png
+ create mode 100644 lufei_pc/static/image/banner3.png
+ create mode 100644 lufei_pc/static/image/cart-yellow.svg
+ create mode 100644 lufei_pc/static/image/cart.svg
+ create mode 100644 lufei_pc/static/image/chapter-player.svg
+ create mode 100644 lufei_pc/static/image/course-cover.jpeg
+ create mode 100644 lufei_pc/static/image/logo.svg
+ create mode 100644 lufei_pc/static/image/logo@2x.png
+ create mode 100644 lufei_pc/static/image/my_bkging.0648ebe.png
+ create mode 100644 lufei_pc/static/image/play-icon-gray.svg
+ create mode 100644 lufei_pc/static/image/play-icon-yellow.svg
+ create mode 100644 lufei_pc/static/image/wechat.png
+ create mode 100644 lufei_pc/static/image/wechat2.png
+ create mode 100644 lufei_pc/static/js/gt.js
+ create mode 100644 luffyapi/logs/luffy.log
+ create mode 100644 luffyapi/luffyapi/__init__.py
+ create mode 100644 luffyapi/luffyapi/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/__pycache__/urls.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/__pycache__/wsgi.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/__init__.py
+ create mode 100644 luffyapi/luffyapi/apps/home/__init__.py
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/admin.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/apps.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/models.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/serializers.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/urls.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/__pycache__/views.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/admin.py
+ create mode 100644 luffyapi/luffyapi/apps/home/apps.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/0001_initial.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/0002_alter_banner_image_url.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__init__.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/0001_initial.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/0002_alter_banner_image_url.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/models.py
+ create mode 100644 luffyapi/luffyapi/apps/home/serializers.py
+ create mode 100644 luffyapi/luffyapi/apps/home/tests.py
+ create mode 100644 luffyapi/luffyapi/apps/home/urls.py
+ create mode 100644 luffyapi/luffyapi/apps/home/views.py
+ create mode 100644 luffyapi/luffyapi/asgi.py
+ create mode 100644 luffyapi/luffyapi/libs/__init__.py
+ create mode 100644 luffyapi/luffyapi/settings/__init__.py
+ create mode 100644 luffyapi/luffyapi/settings/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/settings/__pycache__/constants.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/settings/__pycache__/dev.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/settings/constants.py
+ create mode 100644 luffyapi/luffyapi/settings/dev.py
+ create mode 100644 luffyapi/luffyapi/settings/prod.py
+ create mode 100644 luffyapi/luffyapi/settings_origin.py
+ create mode 100644 luffyapi/luffyapi/uploads/banner/banner1.png
+ create mode 100644 luffyapi/luffyapi/uploads/banner/banner2.png
+ create mode 100644 luffyapi/luffyapi/uploads/banner/banner2_2DV2AAs.png
+ create mode 100644 luffyapi/luffyapi/uploads/banner/banner3.png
+ create mode 100644 luffyapi/luffyapi/urls.py
+ create mode 100644 luffyapi/luffyapi/utils/__init__.py
+ create mode 100644 luffyapi/luffyapi/utils/exceptions.py
+ create mode 100644 luffyapi/luffyapi/wsgi.py
+ create mode 100644 luffyapi/manage.py
+ create mode 100644 luffyapi/scripts/__init__.py
+ create mode 100644 z_luffy.txt
+
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git branch
+    * master
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git branch dev
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git branch
+      dev
+    * master
+
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git checkout dev
+    Switched to branch 'dev'
+    M       z_luffy.txt
+    A       za_git.txt
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git add .
+
+(st10_django4) PS C:\Users\...\Scripts\s05_luffy> git branch -m master main
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git branch -a
+    * dev
+      main
+
+(st10_django4) PS C:\Users\...\s05_luffy> git remote add origin https://github.com/fs2019/luffy.git
+(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git remote -v
+    origin  https://github.com/fs2019/luffy.git (fetch)
+    origin  https://github.com/fs2019/luffy.git (push)
+
+弹出浏览器窗口认证，也可以使用 token 认证：推送，
+(st10_django4) PS C:\Users\...\Scripts\s05_luffy> git push -u origin main
+    info: please complete authentication in your browser...
+    Enumerating objects: 121, done.
+    Counting objects: 100% (121/121), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (111/111), done.
+    Writing objects: 100% (121/121), 1.33 MiB | 1.03 MiB/s, done.
+    Total 121 (delta 8), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (8/8), done.
+    To https://github.com/fs2019/luffy.git
+     * [new branch]      main -> main
+    Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+(st10_django4) PS C:\Users\...\s05_luffy> git push -u origin dev:dev
+    Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+    remote:
+    remote: Create a pull request for 'dev' on GitHub by visiting:
+    remote:      https://github.com/fs2019/luffy/pull/new/dev
+    remote:
+    To https://github.com/fs2019/luffy.git
+     * [new branch]      dev -> dev
+    Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+
+(st10_django4) PS C:\Users\Feng\...\Scripts\s05_luffy> git push -u origin dev:dev
+    Everything up-to-date
+    Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+
+(st10_django4) PS C:\Users\...\s05_luffy> git add .
+(st10_django4) PS C:\Users\...\s05_luffy> git commit -m '导航菜单后台'
+    [dev f3d6a68] 导航菜单后台
+ 25 files changed, 675 insertions(+), 39 deletions(-)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/admin.cpython-311.pyc (82%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/models.cpython-311.pyc (95%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/serializers.cpython-311.pyc (85%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/urls.cpython-311.pyc (85%)
+ rewrite luffyapi/luffyapi/apps/home/__pycache__/views.cpython-311.pyc (80%)
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/0003_alter_banner_image_url_alter_banner_link.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/0004_nav_banner_created_time_banner_updated_time.py
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/
+    0003_alter_banner_image_url_alter_banner_link.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/apps/home/migrations/__pycache__/
+    0004_nav_banner_created_time_banner_updated_time.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/utils/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/utils/__pycache__/models.cpython-311.pyc
+ create mode 100644 luffyapi/luffyapi/utils/models.py
+ create mode 100644 za_git.txt
+(st10_django4) PS C:\Users\...\s05_luffy> git push -u origin dev:dev
+    Enumerating objects: 70, done.
+    Counting objects: 100% (70/70), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (42/42), done.
+    Writing objects: 100% (43/43), 20.76 KiB | 4.15 MiB/s, done.
+    Total 43 (delta 15), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (15/15), completed with 15 local objects.
+    To https://github.com/fs2019/luffy.git
+       bda38a2..f3d6a68  dev -> dev
+    Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+
+
