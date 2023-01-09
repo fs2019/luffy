@@ -357,3 +357,4 @@ git 练习：
 Initialized empty Git repository in C:/Users/Feng/FengShuang/study/pythonItem/st10_django4/Scripts/s05_luffy/.git/
 
 gitignore
+git rm  -n --cached
