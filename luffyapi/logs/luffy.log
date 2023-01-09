@@ -618,3 +618,4 @@ INFO 2023-01-09 19:25:03,837 basehttp 3608 14700 "GET /banner/ HTTP/1.1" 200 284
 INFO 2023-01-09 19:25:03,841 basehttp 3608 17088 "GET /nav/footer/ HTTP/1.1" 200 182
 INFO 2023-01-09 19:25:03,852 basehttp 3608 4648 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
 INFO 2023-01-09 19:25:03,857 basehttp 3608 17184 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 19:25:03,859 basehttp 3608 12012 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
