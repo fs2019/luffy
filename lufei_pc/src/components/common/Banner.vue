@@ -1,15 +1,16 @@
 <template>
   <el-carousel height="720px" :interval="3000" arrow="always">
 
+    <!--  静态数据，没有使用 axiox 异步加载数据时
     <el-carousel-item><img src="/static/image/alex.jpeg"></el-carousel-item>
     <el-carousel-item><img src="/static/image/banner1.png"></el-carousel-item>
     <el-carousel-item><img src="/static/image/banner1.png"></el-carousel-item>
+    -->
 
-  <!--
+    <!-- axiox 异步加载数据 -->
     <el-carousel-item :key="key" v-for="banner,key in banner_list">
       <a :href="banner.link"><img :src="banner.image_url"></a>
     </el-carousel-item>
-    -->
   </el-carousel>
 </template>
 
@@ -25,13 +26,12 @@
       this.get_banner_list();
     },
     methods: {
-      get_banner_list() {
-        // 获取轮播广告列表  成功执行then 失败执行 catch
-        /*this.$axios.get(`${this.$settings.HOST}/banner/`, {}).then(response => {
+      get_banner_list() {  // 获取轮播广告列表  成功执行then 失败执行 catch
+        this.$axios.get(`${this.$settings.HOST}/banner/`, {}).then(response => {
           this.banner_list = response.data;
         }).catch(error => {
           console.log(error.response)
-        });*/
+        });
       }
     }
   }
@@ -45,11 +45,9 @@
     line-height: 300px;
     margin: 0;
   }
-
   .el-carousel__item:nth-child(2n) {
     background-color: #99a9bf;
   }
-
   .el-carousel__item:nth-child(2n+1) {
     background-color: #d3dce6;
   }

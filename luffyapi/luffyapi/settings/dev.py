@@ -189,5 +189,5 @@ REST_FRAMEWORK={
     'EXCEPTION_HANDLER':'luffyapi.utils.excetpions.custom_exception_handler',
 }
 
-CORS_ORIGIN_WHITELIST=('http://www.luffycity.cn:8080','http://127.0.0.1:8080')
+CORS_ORIGIN_WHITELIST=('http://www.luffycity.cn:8080','http://127.0.0.1:8080','http://localhost:8080')
 CORS_ALLOW_CREDENTIALS=False

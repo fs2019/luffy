@@ -70,12 +70,12 @@ luffyapi/urls.py, serve...
       Applying home.0001_initial... OK
       Applying sessions.0001_initial... OK
 
-创建drf序列化器，luffyapi/apps/home/serializers.py
-创建drf视图,luffyapi/apps/home/view.py, 导入序列化器，
-
+创建drf序列化器，luffyapi/apps/home/serializers.py,   luffyapi/apps/home/view.py 导入
 设置常量文件，settings/constants.py,   luffyapi/apps/home/view.py 导入
+创建drf视图,luffyapi/apps/home/view.py, 导入序列化器/常量文件，
+配置路由，luffyapi/apps/home/urls.py,
 
-只有django2版本，貌似后面转为纯前端，xadmin3, 18包全部单独卸载，不兼容的地方太多
+只有django2版本，18个包全部单独卸载，不兼容的地方太多，貌似后面转为纯前端xadmin3,
 pip install https://codeload.github.com/sshwsfc/xadmin/zip/django2 -i https://pypi.douban.com/simple
     Successfully installed defusedxml-0.7.1 diff-match-patch-20200713 django-crispy-forms-1.14.0
     django-formtools-2.4 django-import-export-3.0.2 django-reversion-5.0.4 et-xmlfile-1.1.0 future-0.18.2
@@ -142,9 +142,26 @@ pip index versions xlwt -i https://pypi.douban.com/simple
     release without prior warning. xlwt (1.3.0)
     Available versions: 1.3.0, 1.2.0, 1.1.2, 1.1.1, 1.0.0, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0
 
- python .\manage.py createsuperuser : admin:root@123
+后台管理： python .\manage.py createsuperuser : admin:root@123
+    apps/home/admin.py 注册; apps/home/apps.py 更改菜单标签，如果不生效则更改 apps/home/__init__.py ,
 
-
+模型抽象类：luffyapi/utils/models.py,
+(st10_django4) PS C:\Users\...\s05_luffy\luffyapi> python .\manage.py makemigrations
+    It is impossible to add the field 'created_time' with 'auto_now_add=True' to banner
+        without providing a default. This is because the database needs something to populate existing rows.
+     1) Provide a one-off default now which will be set on all existing rows
+     2) Quit and manually define a default value in models.py.
+    Select an option: 1
+    Please enter the default value as valid Python.
+    Accept the default 'timezone.now' by pressing 'Enter' or provide another value.
+    The datetime and django.utils.timezone modules are available, so it is possible to provide e.g. timezone.now as a value.
+    Type 'exit' to exit this prompt
+    [default: timezone.now] >>>
+    Migrations for 'home':
+      luffyapi\apps\home\migrations\0004_nav_banner_created_time_banner_updated_time.py
+        - Create model Nav
+        - Add field created_time to banner
+        - Add field updated_time to banner
 
 
 ---- vue, luffy_pc/, cd s05_luffy ;
@@ -310,21 +327,21 @@ npm i element-ui -S # npm install element-ui --save
 element-ui 导入 src/main.js,
 创建css文件 static/css/reset.css, main.js导入: import '../static/css/reset.css'
 
+axios 加载数据，轮播：src/components/common/Banner.vue,
 
 
-
----- 主机配置
+---- 主机 域名 配置
 域名配置,添加2条：sudo vim /etc/hosts
     127.0.0.1 api.luffycity.cn
     127.0.0.1 www.luffycity.cn
-luffyapi/settings/dev.py, ALLOWED_HOSTS=['api.luffycity.cn','www.luffycity.cn']
-luffy_pc/config/index.js, 配置域名与端口（只能大于1024）
+luffyapi/settings/dev.py, ALLOWED_HOSTS=['api.luffycity.cn','www.luffycity.cn'] ；开发模式只能大于1024
+luffy_pc/config/index.js, 配置域名与端口（开发模式只能大于1024）
 
 跨域问题：
 django: pip install django-cors-headers -i https://pypi.douban.com/simple
     Successfully installed django-cors-headers-3.13.0
 settings/dev.py, INSTALLED_APPS=['corsheaders',],MIDDLEWARE=['corsheaders.middleware.CorsMiddleware',]
-    CORS_ORIGIN_WHITELIST=('http://www.luffycity.cn:8080','http://127.0.0.1:8080');
+    CORS_ORIGIN_WHITELIST=('http://www.luffycity.cn:8080','http://127.0.0.1:8080','http://localhost:8080');
     CORS_ALLOW_CREDENTIALS=False ;
 vue: axios, lufei_pc/src/main.js: import axios from 'axios'
 (st10_django4) PS C:\Users\...\s05_luffy\lufei_pc> npm i axios -S
@@ -344,15 +361,11 @@ touch 1.html; git add . (.即当前目录下所有子目录 或指定目录 git 
 git reflog 查看本地版本号； git reset --hard 回退的本地版本号 ; git log 查看详细日志；
 git branch 查看分支； git branch dev 创建dev分支；git checkout dev 切换分支;
 git checkout master; git branch -D dev 删除分支不能删除已进入的分支要切换到其它分支才能删除；
+git branch -m master main 更改 master 分支名称为 main ; git remote -v 查看远程仓库;
+git merge 分支名 ， 合并分支；
 
-在gitee站点中先创建的仓库名 luffy ，用户名 mooluo , 指定变量 origin 的值为 https://gitee.com/mooluo/luffy.git
-git remote add origin https://gitee.com/mooluo/luffy.git;
-git push -u origin master:master ；master为远程分支名称;
+git remote add origin https://github.com/fs2019/luffy.git
+git push -u origin main ；main为远程分支名称;
+git push -u origin dev:dev ；dev为远程分支名称;
 
-已有仓库：cd gitdemo; git remote add origin https://gitee.com/mooluo/luffy.git;
-git push -u origin master;
-
-git 练习：
-(st10_django4) PS C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy> git init
-Initialized empty Git repository in C:/Users/Feng/FengShuang/study/pythonItem/st10_django4/Scripts/s05_luffy/.git/
 

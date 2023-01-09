@@ -296,3 +296,299 @@ INFO 2023-01-09 13:44:04,433 basehttp 1892 13528 "GET /admin/home/banner/ HTTP/1
 INFO 2023-01-09 13:44:04,444 basehttp 1892 13528 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2023-01-09 13:44:05,905 basehttp 1892 13528 "GET /admin/home/banner/ HTTP/1.1" 200 9789
 INFO 2023-01-09 13:44:05,915 basehttp 1892 13528 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 14:23:44,026 basehttp 1892 3068 "GET /admin/home/banner/ HTTP/1.1" 200 9789
+INFO 2023-01-09 14:23:44,038 basehttp 1892 3068 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 14:23:45,718 basehttp 1892 3068 "GET /banner/ HTTP/1.1" 200 6091
+INFO 2023-01-09 14:45:48,299 autoreload 1892 2336 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 14:45:48,821 autoreload 9700 3996 Watching for file changes with StatReloader
+WARNING 2023-01-09 14:46:44,882 log 9700 6232 Not Found: /nav/footer/
+WARNING 2023-01-09 14:46:44,882 log 9700 7624 Not Found: /nav/header/
+WARNING 2023-01-09 14:46:44,883 basehttp 9700 6232 "GET /nav/footer/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:46:44,883 basehttp 9700 7624 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:48:38,256 log 9700 7624 Not Found: /nav/header/
+WARNING 2023-01-09 14:48:38,257 basehttp 9700 7624 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:48:38,264 log 9700 7624 Not Found: /nav/footer/
+WARNING 2023-01-09 14:48:38,265 basehttp 9700 7624 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 14:53:06,599 basehttp 9700 7624 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 14:53:16,487 log 9700 7624 Not Found: /nav/header/
+WARNING 2023-01-09 14:53:16,488 basehttp 9700 7624 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:53:16,504 log 9700 10764 Not Found: /nav/footer/
+INFO 2023-01-09 14:53:16,506 basehttp 9700 7624 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 14:53:16,507 basehttp 9700 10764 "GET /nav/footer/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:54:08,120 log 9700 10764 Not Found: /nav/header/
+WARNING 2023-01-09 14:54:08,121 basehttp 9700 10764 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:54:08,132 log 9700 7624 Not Found: /nav/footer/
+WARNING 2023-01-09 14:54:08,133 basehttp 9700 7624 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 14:54:08,136 basehttp 9700 10764 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 14:56:46,454 basehttp 9700 10764 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 14:56:57,736 log 9700 10764 Not Found: /nav/header/
+WARNING 2023-01-09 14:56:57,737 basehttp 9700 10764 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 14:56:57,746 log 9700 7624 Not Found: /nav/footer/
+WARNING 2023-01-09 14:56:57,747 basehttp 9700 7624 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 14:56:57,750 basehttp 9700 10764 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 14:57:48,973 basehttp 9700 10764 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 14:57:53,926 log 9700 10764 Not Found: /nav/header/
+WARNING 2023-01-09 14:57:53,929 log 9700 8188 Not Found: /nav/footer/
+WARNING 2023-01-09 14:57:53,929 basehttp 9700 10764 "GET /nav/header/ HTTP/1.1" 404 2390
+INFO 2023-01-09 14:57:53,932 basehttp 9700 7624 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 14:57:53,932 basehttp 9700 8188 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:00:01,191 autoreload 9700 3996 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\settings\dev.py changed, reloading.
+INFO 2023-01-09 15:00:01,820 autoreload 4416 4812 Watching for file changes with StatReloader
+WARNING 2023-01-09 15:00:07,297 log 4416 15712 Not Found: /nav/header/
+WARNING 2023-01-09 15:00:07,298 basehttp 4416 15712 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:00:07,299 log 4416 16128 Not Found: /nav/footer/
+INFO 2023-01-09 15:00:07,302 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:00:07,303 basehttp 4416 16128 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:00:35,233 basehttp 4416 16128 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:00:39,353 log 4416 16128 Not Found: /nav/header/
+WARNING 2023-01-09 15:00:39,354 basehttp 4416 16128 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:00:39,368 log 4416 15664 Not Found: /nav/footer/
+WARNING 2023-01-09 15:00:39,369 basehttp 4416 15664 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:00:39,373 basehttp 4416 16128 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:01:14,124 basehttp 4416 16128 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:01:31,391 log 4416 16128 Not Found: /nav/header/
+WARNING 2023-01-09 15:01:31,392 basehttp 4416 16128 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:01:31,401 log 4416 15712 Not Found: /nav/footer/
+WARNING 2023-01-09 15:01:31,402 basehttp 4416 15712 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:01:31,405 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:02:49,862 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:02:57,042 log 4416 15664 Not Found: /nav/header/
+WARNING 2023-01-09 15:02:57,043 basehttp 4416 15664 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:02:57,053 log 4416 15712 Not Found: /nav/footer/
+WARNING 2023-01-09 15:02:57,054 basehttp 4416 15712 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:02:57,058 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:03:45,879 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:03:54,237 log 4416 15664 Not Found: /nav/header/
+WARNING 2023-01-09 15:03:54,237 basehttp 4416 15664 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:03:54,245 log 4416 15712 Not Found: /nav/footer/
+WARNING 2023-01-09 15:03:54,248 basehttp 4416 15712 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:03:54,248 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:04:33,615 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:05:35,834 basehttp 4416 15664 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:05:35,898 basehttp 4416 2624 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:05:35,899 basehttp 4416 11692 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:05:35,901 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+WARNING 2023-01-09 15:06:26,677 log 4416 15664 Not Found: /nav/header/
+WARNING 2023-01-09 15:06:26,677 basehttp 4416 15664 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:06:26,684 log 4416 16128 Not Found: /nav/footer/
+WARNING 2023-01-09 15:06:26,686 basehttp 4416 16128 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:06:26,689 basehttp 4416 15712 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:06:26,702 basehttp 4416 11692 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:06:26,703 basehttp 4416 2624 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:06:26,704 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+WARNING 2023-01-09 15:07:53,773 log 4416 15712 Not Found: /nav/header/
+WARNING 2023-01-09 15:07:53,774 basehttp 4416 15712 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:07:53,786 log 4416 16128 Not Found: /nav/footer/
+WARNING 2023-01-09 15:07:53,787 basehttp 4416 16128 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:07:53,789 basehttp 4416 15712 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:07:53,801 basehttp 4416 2624 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:07:53,802 basehttp 4416 11692 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:07:53,803 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+WARNING 2023-01-09 15:08:06,861 log 4416 15712 Not Found: /nav/header/
+WARNING 2023-01-09 15:08:06,862 basehttp 4416 15712 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:08:06,875 log 4416 16128 Not Found: /nav/footer/
+WARNING 2023-01-09 15:08:06,876 basehttp 4416 16128 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:08:06,879 basehttp 4416 15712 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:08:06,891 basehttp 4416 11692 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:08:06,892 basehttp 4416 2624 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:08:06,893 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2023-01-09 15:12:18,990 basehttp 4416 15712 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:12:18,998 basehttp 4416 2624 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:12:19,001 basehttp 4416 11692 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:12:19,001 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+WARNING 2023-01-09 15:12:21,563 log 4416 15712 Not Found: /nav/header/
+WARNING 2023-01-09 15:12:21,564 basehttp 4416 15712 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:12:21,573 log 4416 16128 Not Found: /nav/footer/
+INFO 2023-01-09 15:12:21,575 basehttp 4416 15712 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:12:21,575 basehttp 4416 16128 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:12:21,589 basehttp 4416 11692 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:12:21,591 basehttp 4416 2624 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:12:21,592 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2023-01-09 15:14:57,663 basehttp 4416 16128 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:14:57,673 basehttp 4416 2624 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:14:57,674 basehttp 4416 11692 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:14:57,675 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2023-01-09 15:15:05,549 basehttp 4416 15688 "GET /banner/ HTTP/1.1" 200 6091
+INFO 2023-01-09 15:15:08,569 basehttp 4416 15688 "GET /admin/home/banner/ HTTP/1.1" 200 9789
+INFO 2023-01-09 15:15:08,582 basehttp 4416 15688 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-01-09 15:18:06,040 log 4416 16128 Not Found: /nav/header/
+WARNING 2023-01-09 15:18:06,041 basehttp 4416 16128 "GET /nav/header/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:18:06,055 basehttp 4416 16128 "GET /banner/ HTTP/1.1" 200 284
+WARNING 2023-01-09 15:18:06,057 log 4416 13060 Not Found: /nav/footer/
+WARNING 2023-01-09 15:18:06,058 basehttp 4416 13060 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:18:06,066 basehttp 4416 11692 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:18:06,067 basehttp 4416 2624 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:18:06,068 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+WARNING 2023-01-09 15:18:09,539 log 4416 13060 Not Found: /nav/header/
+WARNING 2023-01-09 15:18:09,540 basehttp 4416 13060 "GET /nav/header/ HTTP/1.1" 404 2390
+WARNING 2023-01-09 15:18:09,548 log 4416 16128 Not Found: /nav/footer/
+WARNING 2023-01-09 15:18:09,550 basehttp 4416 16128 "GET /nav/footer/ HTTP/1.1" 404 2390
+INFO 2023-01-09 15:18:09,552 basehttp 4416 13060 "GET /banner/ HTTP/1.1" 200 284
+INFO 2023-01-09 15:18:09,565 basehttp 4416 2624 "GET /media/banner/banner2.png HTTP/1.1" 200 24322
+INFO 2023-01-09 15:18:09,566 basehttp 4416 11692 "GET /media/banner/banner1.png HTTP/1.1" 200 99518
+INFO 2023-01-09 15:18:09,567 basehttp 4416 15688 "GET /media/banner/banner3.png HTTP/1.1" 200 361097
+INFO 2023-01-09 16:12:01,318 autoreload 4416 4812 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:12:01,865 autoreload 16316 4044 Watching for file changes with StatReloader
+INFO 2023-01-09 16:14:30,536 basehttp 16316 4508 "GET /admin/home/banner/ HTTP/1.1" 200 9789
+INFO 2023-01-09 16:14:30,550 basehttp 16316 4508 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 16:14:32,862 basehttp 16316 4508 "GET /admin/home/banner/3/change/ HTTP/1.1" 200 9588
+INFO 2023-01-09 16:14:32,875 basehttp 16316 4508 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 16:14:59,201 basehttp 16316 4508 "POST /admin/home/banner/3/change/ HTTP/1.1" 200 9611
+INFO 2023-01-09 16:14:59,212 basehttp 16316 4508 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 16:15:15,982 basehttp 16316 4508 "POST /admin/home/banner/3/change/ HTTP/1.1" 302 0
+INFO 2023-01-09 16:15:15,997 basehttp 16316 4508 "GET /admin/home/banner/ HTTP/1.1" 200 10018
+INFO 2023-01-09 16:15:16,009 basehttp 16316 4508 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 16:19:34,579 autoreload 16316 4044 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:19:35,188 autoreload 14916 8844 Watching for file changes with StatReloader
+INFO 2023-01-09 16:21:39,601 autoreload 14916 8844 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:21:40,196 autoreload 8696 4812 Watching for file changes with StatReloader
+INFO 2023-01-09 16:28:14,565 autoreload 8696 4812 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:28:15,094 autoreload 1928 15660 Watching for file changes with StatReloader
+INFO 2023-01-09 16:32:04,269 autoreload 1928 15660 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:32:04,797 autoreload 1692 6752 Watching for file changes with StatReloader
+INFO 2023-01-09 16:33:27,141 autoreload 1692 6752 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:33:27,623 autoreload 15844 14364 Watching for file changes with StatReloader
+INFO 2023-01-09 16:52:47,315 autoreload 15844 14364 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:52:47,870 autoreload 6256 5468 Watching for file changes with StatReloader
+INFO 2023-01-09 16:53:52,200 autoreload 6256 5468 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:53:52,702 autoreload 10128 2052 Watching for file changes with StatReloader
+INFO 2023-01-09 16:54:25,056 autoreload 10128 2052 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:54:25,560 autoreload 15676 14100 Watching for file changes with StatReloader
+INFO 2023-01-09 16:56:44,664 autoreload 15676 14100 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:56:45,188 autoreload 10264 11632 Watching for file changes with StatReloader
+INFO 2023-01-09 16:58:02,936 autoreload 10264 11632 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\models.py changed, reloading.
+INFO 2023-01-09 16:58:03,614 autoreload 14028 11580 Watching for file changes with StatReloader
+INFO 2023-01-09 18:06:35,330 autoreload 16304 11692 Watching for file changes with StatReloader
+INFO 2023-01-09 18:07:04,392 basehttp 16304 5908 "GET /admin/home/banner/ HTTP/1.1" 200 9789
+INFO 2023-01-09 18:07:04,409 basehttp 16304 5908 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:07:06,209 basehttp 16304 5908 "GET /banner/ HTTP/1.1" 200 6091
+INFO 2023-01-09 18:07:06,224 basehttp 16304 5908 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,226 basehttp 16304 5240 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,226 basehttp 16304 10308 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,227 basehttp 16304 15116 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,228 basehttp 16304 15456 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,229 basehttp 16304 5908 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,230 basehttp 16304 9440 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,231 basehttp 16304 5240 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,232 basehttp 16304 10308 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,232 basehttp 16304 15116 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2023-01-09 18:07:06,233 basehttp 16304 15116 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2023-01-09 18:07:14,043 log 16304 15116 Not Found: /nav/footer
+WARNING 2023-01-09 18:07:14,044 basehttp 16304 15116 "GET /nav/footer HTTP/1.1" 404 2702
+WARNING 2023-01-09 18:07:30,536 log 16304 15116 Not Found: /nav/header/
+WARNING 2023-01-09 18:07:30,537 basehttp 16304 15116 "GET /nav/header/ HTTP/1.1" 404 2705
+INFO 2023-01-09 18:07:35,228 basehttp 16304 15116 "GET /nav/header HTTP/1.1" 200 5262
+INFO 2023-01-09 18:07:50,490 autoreload 16304 11692 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\urls.py changed, reloading.
+INFO 2023-01-09 18:07:50,954 autoreload 10968 4616 Watching for file changes with StatReloader
+INFO 2023-01-09 18:07:55,658 basehttp 10968 5588 "GET /nav/footer/ HTTP/1.1" 200 5268
+INFO 2023-01-09 18:07:59,667 basehttp 10968 5588 "GET /nav/footer HTTP/1.1" 301 0
+INFO 2023-01-09 18:07:59,677 basehttp 10968 5588 "GET /nav/footer/ HTTP/1.1" 200 5268
+INFO 2023-01-09 18:10:10,932 autoreload 10968 4616 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:10:11,422 autoreload 9012 7536 Watching for file changes with StatReloader
+INFO 2023-01-09 18:10:42,678 autoreload 9012 7536 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:10:43,183 autoreload 14160 15592 Watching for file changes with StatReloader
+INFO 2023-01-09 18:10:43,572 basehttp 14160 14404 "GET /admin/home/banner/ HTTP/1.1" 200 10071
+INFO 2023-01-09 18:10:43,592 basehttp 14160 14404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:10:47,817 basehttp 14160 14404 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:10:47,830 basehttp 14160 14404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:10:49,660 basehttp 14160 14404 "GET /admin/home/banner/ HTTP/1.1" 200 10071
+INFO 2023-01-09 18:10:49,672 basehttp 14160 14404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:10:50,800 basehttp 14160 14404 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:10:50,812 basehttp 14160 14404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:10:52,922 basehttp 14160 14404 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:10:52,933 basehttp 14160 14404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:11:06,723 basehttp 14160 14404 "GET /admin/home/banner/ HTTP/1.1" 200 10071
+INFO 2023-01-09 18:11:06,736 basehttp 14160 14404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:11:22,976 autoreload 14160 15592 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:11:23,484 autoreload 11680 8516 Watching for file changes with StatReloader
+INFO 2023-01-09 18:11:25,170 basehttp 11680 11648 "GET /admin/home/banner/ HTTP/1.1" 200 7499
+INFO 2023-01-09 18:11:25,182 basehttp 11680 11648 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:14:18,504 autoreload 11680 8516 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:14:19,011 autoreload 5208 8272 Watching for file changes with StatReloader
+INFO 2023-01-09 18:14:19,896 basehttp 5208 9648 "GET /admin/home/banner/ HTTP/1.1" 200 9789
+INFO 2023-01-09 18:14:19,908 basehttp 5208 9648 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:25:32,098 autoreload 5208 8272 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:25:32,671 autoreload 6104 5096 Watching for file changes with StatReloader
+INFO 2023-01-09 18:26:02,895 autoreload 6104 5096 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:26:03,378 autoreload 13288 16064 Watching for file changes with StatReloader
+INFO 2023-01-09 18:26:04,342 basehttp 13288 13828 "GET /admin/home/banner/ HTTP/1.1" 200 10923
+INFO 2023-01-09 18:26:04,355 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:26:12,627 basehttp 13288 13828 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:26:12,640 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:26:14,653 basehttp 13288 13828 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:26:14,666 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:26:29,690 basehttp 13288 13828 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:26:29,703 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:26:31,012 basehttp 13288 13828 "GET /admin/home/banner/ HTTP/1.1" 200 10923
+INFO 2023-01-09 18:26:31,024 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:26:32,475 basehttp 13288 13828 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:26:32,500 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:26:33,993 basehttp 13288 13828 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:26:34,004 basehttp 13288 13828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:27:24,840 autoreload 13288 16064 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:27:25,475 autoreload 16348 8684 Watching for file changes with StatReloader
+INFO 2023-01-09 18:28:49,697 autoreload 16348 8684 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:28:50,227 autoreload 15932 14584 Watching for file changes with StatReloader
+INFO 2023-01-09 18:29:17,537 basehttp 15932 15980 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:29:17,552 basehttp 15932 15980 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:29:19,669 basehttp 15932 15980 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:29:19,681 basehttp 15932 15980 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:30:54,536 basehttp 15932 15980 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:30:54,549 basehttp 15932 15980 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:30:56,625 basehttp 15932 15980 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:30:56,659 basehttp 15932 15980 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:30:58,213 basehttp 15932 15980 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:30:58,224 basehttp 15932 15980 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:31:29,325 autoreload 8048 16320 Watching for file changes with StatReloader
+INFO 2023-01-09 18:31:35,497 basehttp 8048 10032 "GET /admin/home/banner/ HTTP/1.1" 200 10071
+INFO 2023-01-09 18:31:35,510 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:31:37,923 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:31:37,935 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:31:39,688 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:31:39,713 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:32:29,529 basehttp 8048 10032 "GET /admin/home/banner/ HTTP/1.1" 200 10071
+INFO 2023-01-09 18:32:29,541 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:32:34,833 basehttp 8048 10032 "GET /admin/home/banner/add/ HTTP/1.1" 200 9076
+INFO 2023-01-09 18:32:34,845 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:32:39,462 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 5679
+INFO 2023-01-09 18:32:39,475 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:33:25,454 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:33:25,466 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:34:29,301 basehttp 8048 10032 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:34:29,314 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 8173
+INFO 2023-01-09 18:34:29,326 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:34:55,605 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:34:55,617 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:35:21,320 basehttp 8048 10032 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:35:21,334 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 8679
+INFO 2023-01-09 18:35:21,356 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:35:59,656 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:35:59,677 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:36:36,701 basehttp 8048 10032 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:36:36,714 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9273
+INFO 2023-01-09 18:36:36,726 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:38:03,843 basehttp 8048 10032 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:38:03,858 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9270
+INFO 2023-01-09 18:38:03,869 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:38:59,589 basehttp 8048 10032 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:38:59,604 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9276
+INFO 2023-01-09 18:38:59,617 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:39:37,061 basehttp 8048 10032 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:39:37,078 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 10776
+INFO 2023-01-09 18:39:37,090 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:39:49,561 basehttp 8048 10032 "GET /admin/home/nav/6/change/ HTTP/1.1" 200 9287
+INFO 2023-01-09 18:39:49,573 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:39:53,125 basehttp 8048 10032 "POST /admin/home/nav/6/change/ HTTP/1.1" 302 0
+INFO 2023-01-09 18:39:53,141 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 10778
+INFO 2023-01-09 18:39:53,155 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:40:07,442 basehttp 8048 10032 "GET /admin/home/nav/add/ HTTP/1.1" 200 9031
+INFO 2023-01-09 18:40:07,455 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:40:11,877 basehttp 8048 10032 "GET /admin/home/nav/ HTTP/1.1" 200 10576
+INFO 2023-01-09 18:40:11,889 basehttp 8048 10032 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:40:29,459 autoreload 8048 16320 C:\Users\Feng\FengShuang\study\pythonItem\st10_django4\Scripts\s05_luffy\luffyapi\luffyapi\apps\home\admin.py changed, reloading.
+INFO 2023-01-09 18:40:29,957 autoreload 3608 15816 Watching for file changes with StatReloader
+INFO 2023-01-09 18:40:31,823 basehttp 3608 14752 "GET /admin/home/nav/ HTTP/1.1" 200 10012
+INFO 2023-01-09 18:40:31,835 basehttp 3608 14752 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-01-09 18:41:04,726 basehttp 3608 14752 "GET /nav/footer/ HTTP/1.1" 200 5771
+INFO 2023-01-09 18:41:34,170 basehttp 3608 14752 "GET /nav/header HTTP/1.1" 301 0
+INFO 2023-01-09 18:41:34,181 basehttp 3608 14752 "GET /nav/header/ HTTP/1.1" 200 5772
